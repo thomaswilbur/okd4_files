@@ -1,6 +1,6 @@
 zone "oc.adaclare.com" {
     type master;
-    file "/etc/named/zones/oc.adaclare.com"; # zone file path
+    file "/etc/named/zones/db.oc.adaclare.com"; # zone file path
 };
 
 zone "2.168.192.in-addr.arpa" {
