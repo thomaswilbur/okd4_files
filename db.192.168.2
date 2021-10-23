@@ -1,5 +1,5 @@
 $TTL    604800
-@       IN      SOA     okd4-services.okd.local. admin.okd.local. (
+@       IN      SOA     okd4-services.adaclare.com. admin.adaclare.com. (
                   6     ; Serial
              604800     ; Refresh
               86400     ; Retry
@@ -8,17 +8,18 @@ $TTL    604800
 )
 
 ; name servers - NS records
-    IN      NS      okd4-services.okd.local.
+    IN      NS      okd4-services.adaclare.com.
 
 ; name servers - PTR records
-210    IN    PTR    okd4-services.okd.local.
+210    IN    PTR    okd4-services.adaclare.com.
 
 ; OpenShift Container Platform Cluster - PTR records
-200    IN    PTR    okd4-bootstrap.lab.okd.local.
-201    IN    PTR    okd4-control-plane-1.lab.okd.local.
-202    IN    PTR    okd4-control-plane-2.lab.okd.local.
-203    IN    PTR    okd4-control-plane-3.lab.okd.local.
-204    IN    PTR    okd4-compute-1.lab.okd.local.
-205    IN    PTR    okd4-compute-2.lab.okd.local.
-210    IN    PTR    api.lab.okd.local.
-210    IN    PTR    api-int.lab.okd.local.
+200    IN    PTR    okd4-bootstrap.oc.adaclare.com.
+201    IN    PTR    okd4-control-plane-1.oc.adaclare.com.
+202    IN    PTR    okd4-control-plane-2.oc.adaclare.com.
+203    IN    PTR    okd4-control-plane-3.oc.adaclare.com.
+204    IN    PTR    okd4-compute-1.oc.adaclare.com.
+205    IN    PTR    okd4-compute-2.oc.adaclare.com.
+206    IN    PTR    okd4-compute-3.oc.adaclare.com.
+210    IN    PTR    api.oc.adaclare.com.
+210    IN    PTR    api-int.oc.adaclare.com.
