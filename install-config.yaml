@@ -1,7 +1,7 @@
 apiVersion: v1
-baseDomain: okd.local
+baseDomain: adaclare.com
 metadata:
-  name: lab
+  name: oc
 
 compute:
 - hyperthreading: Enabled
